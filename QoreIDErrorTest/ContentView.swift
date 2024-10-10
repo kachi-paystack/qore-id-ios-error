@@ -1,19 +1,12 @@
-//
-//  ContentView.swift
-//  QoreIDErrorTest
-//
-//  Created by Onyekachi Mbaike on 10/10/2024.
-//
-
 import SwiftUI
+import QoreIDSDK
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Open Qore ID") {
+                
+            }
         }
         .padding()
     }

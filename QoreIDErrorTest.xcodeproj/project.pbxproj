@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CD95E0D32CB7E2AE005B3D19 /* QoreIDSDK in Frameworks */ = {isa = PBXBuildFile; productRef = CD95E0D22CB7E2AE005B3D19 /* QoreIDSDK */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		CD95E0C02CB7E02B005B3D19 /* QoreIDErrorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QoreIDErrorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD95E0D32CB7E2AE005B3D19 /* QoreIDSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = QoreIDErrorTest;
 			packageProductDependencies = (
+				CD95E0D22CB7E2AE005B3D19 /* QoreIDSDK */,
 			);
 			productName = QoreIDErrorTest;
 			productReference = CD95E0C02CB7E02B005B3D19 /* QoreIDErrorTest.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = CD95E0B72CB7E02B005B3D19;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CD95E0D12CB7E2AE005B3D19 /* XCRemoteSwiftPackageReference "QoreIDSDKiOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CD95E0C12CB7E02B005B3D19 /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD95E0D12CB7E2AE005B3D19 /* XCRemoteSwiftPackageReference "QoreIDSDKiOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QoreID/QoreIDSDKiOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD95E0D22CB7E2AE005B3D19 /* QoreIDSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD95E0D12CB7E2AE005B3D19 /* XCRemoteSwiftPackageReference "QoreIDSDKiOS" */;
+			productName = QoreIDSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CD95E0B82CB7E02B005B3D19 /* Project object */;
 }

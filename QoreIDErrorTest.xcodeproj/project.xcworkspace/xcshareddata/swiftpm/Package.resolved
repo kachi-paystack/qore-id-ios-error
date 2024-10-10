@@ -1,0 +1,15 @@
+{
+  "originHash" : "b5b726c02c8af282c3c32a03c28042f8bdd73476fa7d39557cc3476ffceeeec5",
+  "pins" : [
+    {
+      "identity" : "qoreidsdkios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/QoreID/QoreIDSDKiOS",
+      "state" : {
+        "revision" : "9bca8366bf30bc620d06580c6bef94d565b38f9d",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}
